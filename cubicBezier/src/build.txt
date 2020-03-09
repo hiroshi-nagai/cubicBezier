@@ -1,0 +1,5 @@
+cd /Users/admin/Python/lib/cubicBezier/cubicBezier/src
+
+export LIBRARY_PATH=/usr/local/Cellar/boost/1.71.0/lib:/usr/local/Cellar/boost-python/1.71.0_1/lib
+
+g++ -I`python -c 'from distutils.sysconfig import *; print get_python_inc()'` -I/usr/local/Cellar/boost/1.71.0/include/  -lboost_python27 -DPIC -bundle -fPIC -o ../lib.so cubicbezier.cpp -framework Python
