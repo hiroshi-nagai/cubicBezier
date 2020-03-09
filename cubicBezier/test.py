@@ -66,8 +66,6 @@ p.append([30, -110])
 p.append([70, 100])
 p.append([100,100])
 
-# テスト用ポイント(p)からcubicBezierカーブの離散化したポイント群を作成し、
-# そのポイント群を基にpを近似して変数cpに代入
 
 count=30
 points = cubicBezier.sampling_cubicBezier(p, count)
