@@ -10,7 +10,7 @@
 
 
 ## ◆ファイル説明  
-/cubicBezier/lib.so              > ビルドファイル  
-/cubicBezier/__init__.py         > pythonのテスト実行用  
-/cubicBezier/test.py             > pythonのテスト実行ファイル。結果をプロット  
-/cubicBezier/src/cubicbezier.cpp > lib.soのソースコード  
+/cubicBezier/lib.so              * ビルドファイル  
+/cubicBezier/__init__.py         * pythonのテスト実行用  
+/cubicBezier/test.py             * pythonのテスト実行ファイル。結果をプロット  
+/cubicBezier/src/cubicbezier.cpp * lib.soのソースコード  
